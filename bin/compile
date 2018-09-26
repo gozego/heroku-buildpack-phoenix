@@ -43,9 +43,6 @@ fi
 # head "Building dependencies"
 # install_and_cache_deps
 
-ls -liah "${build_dir}/assets/"
-ls -liah "${build_dir}/assets/node_modules"
-
 compile
 
 head "Finalizing build"
